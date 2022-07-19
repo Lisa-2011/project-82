@@ -49,7 +49,7 @@ function my_mousemove(e){
        ctx.strokeStyle=color;
        ctx.lineWidth=line_width;
 
-       ctx.arc(current_pos_mouseX, current_pos_mouseY , radius, 0, 1 * Math.PI);
+       ctx.arc(current_pos_mouseX, current_pos_mouseY , 40 , 0, 2 * Math.PI);
 
        ctx.stroke();
 
